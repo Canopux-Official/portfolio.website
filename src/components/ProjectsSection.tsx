@@ -82,7 +82,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group p-6 rounded-xl border border-border bg-card card-hover"
+              className="group p-6 rounded-xl border border-border/50 card-blur card-hover"
             >
               <div className="flex items-start justify-between mb-3">
                 <h3 className="text-lg font-medium text-foreground group-hover:text-primary transition-colors">

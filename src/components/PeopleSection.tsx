@@ -28,7 +28,7 @@ const PeopleSection = () => {
           {people.map((person, index) => (
             <div
               key={index}
-              className="p-5 rounded-xl border border-border/50 bg-card/50"
+              className="p-5 rounded-xl border border-border/50 card-blur"
             >
               <h3 className="text-foreground font-medium mb-1">{person.name}</h3>
               <p className="text-sm text-muted-foreground">{person.role}</p>
