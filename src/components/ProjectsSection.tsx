@@ -58,7 +58,7 @@ const projects: Project[] = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 bg-secondary relative">
+    <section id="projects" className="py-24 relative" style={{ backgroundColor: 'rgba(17, 21, 28, 0.78)' }}>
       {/* Saturn Background continuation */}
       <div className="saturn-background opacity-50">
         <div className="saturn-glow" style={{ top: '20%' }} />

@@ -10,7 +10,7 @@ const people = [
 
 const PeopleSection = () => {
   return (
-    <section id="people" className="py-24">
+    <section id="people" className="py-24" style={{ backgroundColor: 'rgba(11, 15, 20, 0.75)' }}>
       <div className="container mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-16">
