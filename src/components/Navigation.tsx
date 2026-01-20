@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import canopuxLogo from "@/assets/canopux-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,8 +17,8 @@ const Navigation = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#" className="text-xl font-semibold text-foreground tracking-tight">
-            Canopux
+          <a href="#" className="flex items-center">
+            <img src={canopuxLogo} alt="Canopux" className="h-6 w-auto" />
           </a>
 
           {/* Desktop Navigation */}
