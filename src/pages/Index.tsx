@@ -13,21 +13,34 @@ import saturnBackground from "@/assets/saturn-background.png";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* Saturn background layer */}
-      <img
-        src={saturnBackground}
-        alt=""
-        className="fixed top-0 left-0 w-screen h-screen object-cover pointer-events-none z-0"
-        aria-hidden="true"
-      />
-      
-      {/* Main content wrapper */}
-      <div className="relative z-[2]">
-        <Navigation />
-        <HeroSection />
-        <StatsSection />
-        <ServicesSection />
-        <ApproachSection />
+      {/* Upper sections with Saturn background */}
+      <div className="relative">
+        {/* Saturn background - limited to upper sections */}
+        <img
+          src={saturnBackground}
+          alt=""
+          className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none z-0"
+          aria-hidden="true"
+        />
+        {/* Gradient fade at the bottom */}
+        <div 
+          className="absolute bottom-0 left-0 w-full h-64 pointer-events-none z-[1]"
+          style={{ background: 'linear-gradient(to bottom, transparent, hsl(220 20% 6%))' }}
+          aria-hidden="true"
+        />
+        
+        {/* Content above Saturn */}
+        <div className="relative z-[2]">
+          <Navigation />
+          <HeroSection />
+          <StatsSection />
+          <ServicesSection />
+          <ApproachSection />
+        </div>
+      </div>
+
+      {/* Lower sections without Saturn */}
+      <div className="relative bg-background">
         <ProjectsSection />
         <PeopleSection />
         <TestimonialsSection />
