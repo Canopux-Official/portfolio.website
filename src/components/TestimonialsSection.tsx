@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-border bg-card"
+              className="p-6 rounded-xl border border-border/50 card-blur"
             >
               <Quote className="w-8 h-8 text-primary/30 mb-4" />
               <blockquote className="text-foreground leading-relaxed mb-6">

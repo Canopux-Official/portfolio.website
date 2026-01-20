@@ -52,7 +52,7 @@ const ApproachSection = () => {
           {principles.map((principle, index) => (
             <div
               key={index}
-              className="flex items-start gap-4 p-6 rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm"
+              className="flex items-start gap-4 p-6 rounded-xl border border-border/50 card-blur"
             >
               <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                 <principle.icon className="w-5 h-5 text-primary" />
