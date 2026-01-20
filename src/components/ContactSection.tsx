@@ -18,7 +18,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="py-24" style={{ backgroundColor: 'rgba(11, 15, 20, 0.75)' }}>
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Column - Info */}

@@ -25,7 +25,7 @@ const principles = [
 
 const ApproachSection = () => {
   return (
-    <section id="approach" className="py-24 relative">
+    <section id="approach" className="py-24 relative" style={{ backgroundColor: 'rgba(11, 15, 20, 0.75)' }}>
       {/* Saturn Background */}
       <div className="saturn-background">
         <div className="saturn-glow" />
