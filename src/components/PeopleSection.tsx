@@ -1,6 +1,6 @@
 const people = [
   { name: "Archit Mishra", role: "SEO & UI/UX" },
-  { name: "Paresh Chandra Pothal", role: "AI / ML" },
+  { name: "Archit", role: "AI / ML" },
   { name: "Prem Chandra Prasad", role: "Full Stack" },
   { name: "Ashish Mittal", role: "Frontend" },
   { name: "Jagannath Adhikari", role: "Mobile" },
