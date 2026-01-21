@@ -37,11 +37,11 @@ const ApproachSection = () => {
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="max-w-2xl mb-16">
-          <p className="text-sm text-primary font-medium mb-3">Approach</p>
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
+          <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Approach</p>
+          <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-6">
             How we work
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
+          <p className="text-muted-foreground text-lg leading-relaxed font-normal">
             We build fundamentals, not trends. Every project is a partnership. 
             We're invested in outcomes, not just deliverables.
           </p>

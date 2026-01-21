@@ -68,11 +68,11 @@ const ProjectsSection = () => {
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="max-w-2xl mb-16">
-          <p className="text-sm text-primary font-medium mb-3">Work</p>
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-4">
+          <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Portfolio</p>
+          <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-4">
             Projects
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground font-normal leading-relaxed">
             A selection of things we've built.
           </p>
         </div>
