@@ -34,8 +34,8 @@ const ServicesSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-16">
-          <p className="text-sm text-primary font-medium mb-3">Capabilities</p>
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground">
+          <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Capabilities</p>
+          <h2 className="text-3xl md:text-4xl font-medium text-foreground">
             What we're building
           </h2>
         </div>

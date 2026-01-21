@@ -23,11 +23,11 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Column - Info */}
           <div>
-            <p className="text-sm text-primary font-medium mb-3">Contact</p>
-            <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
+            <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Contact</p>
+            <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-6">
               Let's Build
             </h2>
-            <p className="text-muted-foreground text-lg mb-10 max-w-md">
+            <p className="text-muted-foreground text-lg mb-10 max-w-md font-normal leading-relaxed">
               Got an idea? We're here to help you ship it.
             </p>
 

@@ -14,11 +14,11 @@ const PeopleSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-16">
-          <p className="text-sm text-primary font-medium mb-3">Team</p>
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-4">
+          <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Team</p>
+          <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-4">
             The People
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground font-normal leading-relaxed">
             Canopux is built by a small, focused group of builders.
           </p>
         </div>
