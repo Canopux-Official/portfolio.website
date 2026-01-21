@@ -1,11 +1,12 @@
 const people = [
-  { name: "Archit Mishra", role: "SEO & UI/UX" },
-  { name: "Paresh Chandra Pothal", role: "AI / ML" },
-  { name: "Prem Chandra Prasad", role: "Full Stack" },
-  { name: "Ashish Mittal", role: "Frontend" },
-  { name: "Jagannath Adhikari", role: "Mobile" },
-  { name: "Akhilesh Choudhary", role: "IoT & Hardware" },
-  { name: "Pratik Sourav Panda", role: "Project Management & Strategy" },
+  { name: "Archit", role: "Gen AI & Full Stack" },
+  { name: "Paresh", role: "AI / ML & Backend" },
+  { name: "Prem", role: "Full Stack" },
+  { name: "Ashish", role: "Full Stack" },
+  { name: "Jagannath", role: "Android" },
+  { name: "Akhilesh", role: "IoT & Hardware" },
+  { name: "Baibhav", role: "Management" },
+  { name: "Pratik Sourav", role: "Project Management & Strategy" },
 ];
 
 const PeopleSection = () => {
@@ -28,7 +29,7 @@ const PeopleSection = () => {
           {people.map((person, index) => (
             <div
               key={index}
-              className="p-5 rounded-xl border border-border/50 card-blur"
+              className="p-5 rounded-xl border border-border/50 card-blur text-center"
             >
               <h3 className="text-foreground font-medium mb-1">{person.name}</h3>
               <p className="text-sm text-muted-foreground">{person.role}</p>
