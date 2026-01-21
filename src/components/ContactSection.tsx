@@ -3,22 +3,20 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Clock, Send } from "lucide-react";
 import { useState } from "react";
-
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: "",
+    message: ""
   });
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
     console.log("Form submitted:", formData);
   };
-
-  return (
-    <section id="contact" className="py-24" style={{ backgroundColor: 'rgba(11, 15, 20, 0.75)' }}>
+  return <section id="contact" className="py-24" style={{
+    backgroundColor: 'rgba(11, 15, 20, 0.75)'
+  }}>
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Column - Info */}
@@ -38,11 +36,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Email</p>
-                  <a
-                    href="mailto:canopuxinglobal@gmail.com"
-                    className="text-foreground hover:text-primary transition-colors"
-                  >
-                    canopuxinglobal@gmail.com
+                  <a className="text-foreground hover:text-primary transition-colors" href="mailto:canopus.incglobe@gmail.com">
+                    canopus.incglobe@gmail.com
                   </a>
                 </div>
               </div>
@@ -76,44 +71,30 @@ const ContactSection = () => {
                 <label htmlFor="name" className="block text-sm text-muted-foreground mb-2">
                   Name
                 </label>
-                <Input
-                  id="name"
-                  type="text"
-                  placeholder="Your name"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="bg-card border-border"
-                  required
-                />
+                <Input id="name" type="text" placeholder="Your name" value={formData.name} onChange={e => setFormData({
+                ...formData,
+                name: e.target.value
+              })} className="bg-card border-border" required />
               </div>
 
               <div>
                 <label htmlFor="email" className="block text-sm text-muted-foreground mb-2">
                   Email
                 </label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="your@email.com"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="bg-card border-border"
-                  required
-                />
+                <Input id="email" type="email" placeholder="your@email.com" value={formData.email} onChange={e => setFormData({
+                ...formData,
+                email: e.target.value
+              })} className="bg-card border-border" required />
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm text-muted-foreground mb-2">
                   What are you building?
                 </label>
-                <Textarea
-                  id="message"
-                  placeholder="Tell us about your project..."
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="bg-card border-border min-h-[140px] resize-none"
-                  required
-                />
+                <Textarea id="message" placeholder="Tell us about your project..." value={formData.message} onChange={e => setFormData({
+                ...formData,
+                message: e.target.value
+              })} className="bg-card border-border min-h-[140px] resize-none" required />
               </div>
 
               <Button type="submit" variant="hero" size="lg" className="w-full">
@@ -124,8 +105,6 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
