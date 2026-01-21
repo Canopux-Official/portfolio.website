@@ -58,14 +58,9 @@ const projects: Project[] = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 relative" style={{ backgroundColor: 'rgba(17, 21, 28, 0.78)' }}>
-      {/* Saturn Background continuation */}
-      <div className="saturn-background opacity-50">
-        <div className="saturn-glow" style={{ top: '20%' }} />
-        <div className="saturn-ring" style={{ top: '30%' }} />
-      </div>
+    <section id="projects" className="py-24 relative" style={{ backgroundColor: 'rgba(17, 21, 28, 0.88)' }}>
 
-      <div className="container mx-auto px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mb-16">
           <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Portfolio</p>
