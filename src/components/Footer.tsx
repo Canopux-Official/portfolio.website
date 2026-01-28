@@ -24,39 +24,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative py-16 lg:py-20 overflow-hidden">
-      {/* Gradient background */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          background: 'linear-gradient(135deg, hsl(220 25% 8%) 0%, hsl(230 20% 12%) 50%, hsl(220 20% 10%) 100%)'
-        }}
-      />
-      
-      {/* Subtle gradient orbs */}
-      <div 
-        className="absolute top-0 left-1/4 w-96 h-96 rounded-full z-0 opacity-30"
-        style={{
-          background: 'radial-gradient(circle, hsl(260 60% 30% / 0.3) 0%, transparent 70%)',
-          filter: 'blur(80px)',
-        }}
-      />
-      <div 
-        className="absolute bottom-0 right-1/4 w-80 h-80 rounded-full z-0 opacity-25"
-        style={{
-          background: 'radial-gradient(circle, hsl(215 70% 35% / 0.25) 0%, transparent 70%)',
-          filter: 'blur(60px)',
-        }}
-      />
-      <div 
-        className="absolute top-1/2 right-10 w-64 h-64 rounded-full z-0 opacity-20"
-        style={{
-          background: 'radial-gradient(circle, hsl(270 50% 40% / 0.2) 0%, transparent 70%)',
-          filter: 'blur(50px)',
-        }}
-      />
+    <footer className="py-16 lg:py-20" style={{ backgroundColor: 'rgba(8, 11, 15, 0.95)' }}>
 
-      <div className="container mx-auto px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-6 lg:px-8">
         {/* Main Footer Content - Three Columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 mb-12">
           {/* Left Column - Logo & Tagline */}
