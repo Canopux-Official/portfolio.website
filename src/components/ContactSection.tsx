@@ -36,8 +36,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Email</p>
-                  <a className="text-foreground hover:text-primary transition-colors" href="mailto:canopus.incglobe@gmail.com">
-                    canopus.incglobe@gmail.com
+                  <a className="text-foreground hover:text-primary transition-colors" href="mailto:connect.canopux@outlook.com">
+                    ​connect.canopux@outlook.com
                   </a>
                 </div>
               </div>
