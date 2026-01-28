@@ -1,4 +1,4 @@
-import { Globe, Smartphone, Cloud, Wrench, Database } from "lucide-react";
+import { Globe, Smartphone, Cloud, Wrench, Database, PenTool } from "lucide-react";
 
 const services = [
   {
@@ -25,6 +25,11 @@ const services = [
     icon: Database,
     title: "Databases",
     description: "Clean, well-structured databases.",
+  },
+  {
+    icon: PenTool,
+    title: "Graphic Design",
+    description: "Logos and visual identities built with clarity and restraint.",
   },
 ];
 
