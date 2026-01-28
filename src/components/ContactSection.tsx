@@ -58,7 +58,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Response Time</p>
-                  <p className="text-foreground">Within 24 hours</p>
+                  <p className="text-foreground">Within 3-4 hours</p>
                 </div>
               </div>
             </div>
