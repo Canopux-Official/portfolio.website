@@ -2,8 +2,8 @@ import canopuxLogo from "@/assets/canopux-footer-logo.png";
 import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
 const Footer = () => {
   const companyLinks = [{
-    label: "About",
-    href: "#about"
+    label: "People",
+    href: "#people"
   }, {
     label: "Projects",
     href: "#projects"
@@ -26,23 +26,23 @@ const Footer = () => {
   }];
   const socialLinks = [{
     icon: Facebook,
-    href: "#",
+    href: "https://www.facebook.com/profile.php?id=61573815500432",
     label: "Facebook"
   }, {
     icon: Twitter,
-    href: "#",
+    href: "https://x.com/Canopux_team",
     label: "X (Twitter)"
   }, {
     icon: Instagram,
-    href: "#",
+    href: "https://www.instagram.com/canopux_team/",
     label: "Instagram"
   }, {
     icon: Linkedin,
-    href: "#",
+    href: "https://www.linkedin.com/company/canopux/",
     label: "LinkedIn"
   }, {
     icon: Github,
-    href: "#",
+    href: "https://github.com/Canopux-Official",
     label: "GitHub"
   }];
   return <footer className="py-16 lg:py-20" style={{
