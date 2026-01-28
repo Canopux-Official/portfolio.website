@@ -1,10 +1,11 @@
-import { ExternalLink } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 interface Project {
   name: string;
   description: string;
   tech?: string;
   status: "Completed" | "Cooking";
+  url?: string;
 }
 
 const projects: Project[] = [
@@ -17,42 +18,49 @@ const projects: Project[] = [
     name: "IndoCrypt 2025",
     description: "Official website built for IndoCrypt 2025, focused on clarity, performance, and accessibility.",
     status: "Completed",
+    url: "https://indocrypt2025.iiit-bh.ac.in",
   },
   {
     name: "ArogSphere",
     description: "AI-powered healthcare platform for medicine price comparison, disease prediction, and smarter treatment decisions.",
     tech: "MERN Stack, AI, Cloud",
     status: "Completed",
+    url: "https://arogsphere.vercel.app",
   },
   {
     name: "Beatyx",
     description: "A full-stack music streaming platform focused on smooth playback and user experience.",
     tech: "MERN Stack",
     status: "Completed",
+    url: "https://beatyx.vercel.app",
   },
   {
     name: "ATS (Applicant Tracking System)",
     description: "AI-powered resume screening with ATS scores, keyword insights, and smart job matching.",
     tech: "NextJS, Flask, Prisma",
     status: "Completed",
+    url: "https://ats-app.vercel.app",
   },
   {
     name: "TechXpert",
     description: "A structured learning platform for tech skills, quizzes, and certifications.",
     tech: "MERN Stack",
     status: "Completed",
+    url: "https://techxpert.vercel.app",
   },
   {
     name: "Trend",
     description: "An e-commerce platform built for fashion brands with secure checkout.",
     tech: "MERN Stack",
     status: "Completed",
+    url: "https://trend-ecommerce.vercel.app",
   },
   {
     name: "CreatorConnect",
     description: "A creator platform for audience engagement and monetization with secure payments.",
     tech: "MERN Stack, Razorpay",
     status: "Completed",
+    url: "https://creatorconnect.vercel.app",
   },
 ];
 
@@ -77,9 +85,22 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group p-6 rounded-xl border border-border/50 card-blur card-hover"
+              className="group relative p-6 rounded-xl border border-border/50 card-blur card-hover"
             >
-              <div className="flex items-start justify-between mb-3">
+              {/* External Link Arrow */}
+              {project.url && (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute top-4 right-4 text-muted-foreground/40 hover:text-primary group-hover:text-muted-foreground/60 hover:!text-primary transition-colors duration-200 cursor-pointer"
+                  aria-label={`Visit ${project.name}`}
+                >
+                  <ArrowUpRight size={18} strokeWidth={1.5} />
+                </a>
+              )}
+              
+              <div className="flex items-start justify-between mb-3 pr-6">
                 <h3 className="text-lg font-medium text-foreground group-hover:text-primary transition-colors">
                   {project.name}
                 </h3>
