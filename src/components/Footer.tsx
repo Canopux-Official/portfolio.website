@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <img src={canopuxLogo} alt="Canopux" className="h-8 w-auto mb-4 mx-auto md:mx-0" />
             <p className="text-sm text-muted-foreground/80 font-medium mb-4">
-                    A Builder Collective
+                                         A Builder Collective
             </p>
             {/* Accent line */}
             <div className="w-12 h-0.5 bg-primary/50 mx-auto md:mx-0" />
@@ -103,7 +103,7 @@ const Footer = () => {
         {/* Bottom Row - Centered */}
         <div className="text-center">
           <p className="text-xs text-muted-foreground/50 font-normal">
-            © 2025 Canopux. All rights reserved.
+            © 2026 Canopux. All rights reserved.
           </p>
         </div>
       </div>
