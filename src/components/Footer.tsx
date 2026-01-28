@@ -54,7 +54,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 mb-12">
           {/* Left Column - Logo & Tagline */}
           <div className="text-center md:text-left">
-            <img src={canopuxLogo} alt="Canopux" className="h-8 w-auto mb-4 mx-auto md:mx-0" />
+            <img alt="Canopux" className="h-8 w-auto mb-4 mx-auto md:mx-0" src="/lovable-uploads/4fda1949-fcec-48f2-a02d-12c298e6dbbe.png" />
             <p className="text-sm text-muted-foreground/80 font-medium mb-4">
                                          A Builder Collective
             </p>
