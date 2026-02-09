@@ -1,11 +1,11 @@
 import PageWrapper from "@/components/PageWrapper";
 import SEO from "@/components/SEO";
-
-const TermsAndConditions = () => (
-  <PageWrapper>
+const TermsAndConditions = () => <PageWrapper>
     <SEO title="Terms & Conditions | Canopux" description="Canopux terms and conditions of service." />
     <div className="pt-24">
-      <section className="py-24" style={{ backgroundColor: 'rgba(11, 15, 20, 0.75)' }}>
+      <section className="py-24" style={{
+      backgroundColor: 'rgba(11, 15, 20, 0.75)'
+    }}>
         <div className="container mx-auto px-6 lg:px-8 max-w-3xl">
           <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Legal</p>
           <h1 className="text-3xl md:text-4xl font-medium text-foreground mb-8">Terms & Conditions</h1>
@@ -33,13 +33,11 @@ const TermsAndConditions = () => (
             </div>
             <div>
               <h2 className="text-lg font-medium text-foreground mb-3">6. Contact</h2>
-              <p>For questions about these terms, reach us at <a href="mailto:canopus.incglobe@gmail.com" className="text-primary hover:text-primary/80 transition-colors">canopus.incglobe@gmail.com</a>.</p>
+              <p>connect.canopux@outlook.com<a href="mailto:canopus.incglobe@gmail.com" className="text-primary hover:text-primary/80 transition-colors">canopus.incglobe@gmail.com</a>.</p>
             </div>
           </div>
         </div>
       </section>
     </div>
-  </PageWrapper>
-);
-
+  </PageWrapper>;
 export default TermsAndConditions;
