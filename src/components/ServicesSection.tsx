@@ -1,4 +1,5 @@
 import { Globe, Smartphone, Cloud, Wrench, Database, PenTool } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -48,9 +49,10 @@ const ServicesSection = () => {
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <div
+            <Link
               key={index}
-              className="group p-6 rounded-xl border border-border/50 card-blur card-hover"
+              to="/services"
+              className="group p-6 rounded-xl border border-border/50 card-blur card-hover block"
             >
               <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
                 <service.icon className="w-6 h-6 text-primary" />
@@ -61,7 +63,7 @@ const ServicesSection = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {service.description}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

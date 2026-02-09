@@ -12,6 +12,7 @@ const ProjectsSection = lazy(() => import("@/components/ProjectsSection"));
 const PeopleSection = lazy(() => import("@/components/PeopleSection"));
 const TestimonialsSection = lazy(() => import("@/components/TestimonialsSection"));
 const ContactSection = lazy(() => import("@/components/ContactSection"));
+const ClosingCTA = lazy(() => import("@/components/ClosingCTA"));
 
 import saturnBackground from "@/assets/saturn-background.png";
 
@@ -82,6 +83,7 @@ const Index = () => {
               <PeopleSection />
               <TestimonialsSection />
               <ContactSection />
+              <ClosingCTA />
             </Suspense>
           </main>
           <Footer />
