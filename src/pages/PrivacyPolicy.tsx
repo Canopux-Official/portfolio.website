@@ -1,11 +1,11 @@
 import PageWrapper from "@/components/PageWrapper";
 import SEO from "@/components/SEO";
-
-const PrivacyPolicy = () => (
-  <PageWrapper>
+const PrivacyPolicy = () => <PageWrapper>
     <SEO title="Privacy Policy | Canopux" description="Canopux privacy policy — how we handle your data." />
     <div className="pt-24">
-      <section className="py-24" style={{ backgroundColor: 'rgba(11, 15, 20, 0.75)' }}>
+      <section className="py-24" style={{
+      backgroundColor: 'rgba(11, 15, 20, 0.75)'
+    }}>
         <div className="container mx-auto px-6 lg:px-8 max-w-3xl">
           <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Legal</p>
           <h1 className="text-3xl md:text-4xl font-medium text-foreground mb-8">Privacy Policy</h1>
@@ -29,13 +29,11 @@ const PrivacyPolicy = () => (
             </div>
             <div>
               <h2 className="text-lg font-medium text-foreground mb-3">5. Contact</h2>
-              <p>If you have questions about this privacy policy, please contact us at <a href="mailto:canopus.incglobe@gmail.com" className="text-primary hover:text-primary/80 transition-colors">canopus.incglobe@gmail.com</a>.</p>
+              <p>connect.canopux@outlook.com<a href="mailto:canopus.incglobe@gmail.com" className="text-primary hover:text-primary/80 transition-colors">canopus.incglobe@gmail.com</a>.</p>
             </div>
           </div>
         </div>
       </section>
     </div>
-  </PageWrapper>
-);
-
+  </PageWrapper>;
 export default PrivacyPolicy;
