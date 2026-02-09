@@ -22,7 +22,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in animation-delay-400">
             <Button variant="hero" size="lg" asChild>
               <Link to="/contact">
-                Let's Build Together
+                Get in Touch
                 <ArrowRight size={18} />
               </Link>
             </Button>

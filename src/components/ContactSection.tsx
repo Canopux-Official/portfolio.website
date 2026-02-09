@@ -23,7 +23,7 @@ const ContactSection = () => {
           <div>
             <p className="text-xs uppercase tracking-widest text-muted-foreground font-normal mb-4">Contact</p>
             <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-6">
-              Let's Build
+              Let's build something solid.
             </h2>
             <p className="text-muted-foreground text-lg mb-10 max-w-md font-normal leading-relaxed">
               Got an idea? We're here to help you ship it.
@@ -58,7 +58,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Response Time</p>
-                  <p className="text-foreground">Within 3-4 hours</p>
+                  <p className="text-foreground">Typically within 24 hours</p>
                 </div>
               </div>
             </div>

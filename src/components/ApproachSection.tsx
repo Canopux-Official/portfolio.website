@@ -1,4 +1,5 @@
 import { Users, Hammer, Zap, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const principles = [
   {
@@ -60,6 +61,12 @@ const ApproachSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-10">
+          <Link to="/how-we-work" className="text-sm text-primary hover:text-primary/80 transition-colors font-medium">
+            Learn more about how we work →
+          </Link>
         </div>
       </div>
     </section>

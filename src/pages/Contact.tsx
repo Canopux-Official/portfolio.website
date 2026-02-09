@@ -3,7 +3,7 @@ import ContactSection from "@/components/ContactSection";
 import SEO from "@/components/SEO";
 
 const Contact = () => (
-  <PageWrapper>
+  <PageWrapper showSaturn>
     <SEO title="Contact | Canopux" description="Got an idea? We're here to help you ship it." />
     <div className="pt-24">
       <ContactSection />
