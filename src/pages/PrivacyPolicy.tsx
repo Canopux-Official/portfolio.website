@@ -29,7 +29,7 @@ const PrivacyPolicy = () => <PageWrapper>
             </div>
             <div>
               <h2 className="text-lg font-medium text-foreground mb-3">5. Contact</h2>
-              <p>connect.canopux@outlook.com.<a href="mailto:canopus.incglobe@gmail.com" className="text-primary hover:text-primary/80 transition-colors">canopus.incglobe@gmail.com</a>.</p>
+              <p>For privacy-related questions, reach us at <a href="mailto:connect.canopux@outlook.com" className="text-primary hover:text-primary/80 transition-colors">connect.canopux@outlook.com</a>.</p>
             </div>
           </div>
         </div>
